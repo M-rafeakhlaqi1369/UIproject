@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: antiquewhite;
+}
+.contianer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 1000px;
+    height:100vh;
+    padding-top:3rem;
+    position: relative;
+    /* display:grid;
+    grid-template-columns: repeat(8 , 1fr);
+    grid-template-rows:repeat(10 , 1fr); */
+}
+.title-contianer{
+width:100%;
+text-align: center;
+margin: 3rem 0;
+}
+
+.contianer-inputs{
+    width:100%;
+}
+.text-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.input-Elem{
+    width: 100%;
+    height: 40px;
+    border:none;
+    outline:none;
+    margin: 0.4rem 0 1rem 0;
+    box-shadow: 0 0 7rem #ccc;
+    border-radius: 0.2rem;
+    padding: 0 2rem;
+}
+
+.input-Elem:focus{
+    border:1px solid #538ccea6;
+    outline:1.5px solid rgba(146, 178, 209, 0.849);
+}
+.btn-list{
+    display:block;
+}
+.btn-list button:nth-child(1){
+    width: 150px;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color: #6969e9;
+    color:#ffffff;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.btn-list button:nth-child(2){
+    width: 150px;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color: #e05413;
+    color:#ffffff;
+    border-radius: 5px;
+    cursor:pointer; 
+}
+.title{
+    margin-top:0.6rem;
+    font-weight: 100;
+}
+.contianer .list-menu{
+ list-style-type: none;
+    width:100%;
+}
+.contianer .list-items{
+    width:100%;
+    height: 60px;
+    display:flex;
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    align-items:center;
+    padding-left: 1rem;
+    padding-right:1rem;
+    background-color: #89bbd87a;
+    /* justify-content:space-between; */
+
+}
+.box-btn{
+    position: absolute;
+    right:75px;
+    width:240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.complate{
+    width:100px;
+    height:34px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background-color:#5cb85c;
+    cursor:pointer;
+}
+.delete{
+    width:100px;
+    height:34px;
+    border:none;
+    outline: none;
+    border-radius: 4px;
+    background-color:#d9534f;
+    cursor:pointer;
+}
+
+.complateText{
+    text-decoration: line-through;
+}
